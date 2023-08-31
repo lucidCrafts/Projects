@@ -18,7 +18,7 @@ Follow these steps to set up and use the fraud detection pipeline:
 
 2. **Configure Scripts:** Open the scripts in the `scripts` directory and configure them according to your dataset and pipeline requirements:
    
-   - `preprocessing.py`: Customize data preprocessing steps, such as handling missing values, encoding categorical variables, and splitting data.
+   - `preprocessing.py`: Customize data preprocessing steps, currently there are 1.load_data() 2.Robust_Scaler_M(), 3.dataframe_b(), 4.t_t_s_skl(). These are for loading, scaling, balancing, and splitting the dataset, you can adjust or skip using any of these as per you requirements, remember to make changes to the other ".py" files when you do. 
    - `model.py`: Adjust the neural network model architecture and hyperparameters.
    - `train.py`: Set up hyperparameter tuning settings and any additional training configurations.
 
