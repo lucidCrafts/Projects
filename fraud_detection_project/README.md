@@ -7,5 +7,5 @@ This repository contains a Python pipeline for building and training a shallow n
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/lucidCrafts/credit_fraud_detection_project.git
+git clone https://github.com/lucidCrafts/fraud_detection_project.git
 cd credit_fraud_detection_project
