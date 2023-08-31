@@ -62,7 +62,6 @@ def load_data(file_path):
 
 
 if __name__ == "__main__":
-    # Example usage
     file_path = "data/YOUR_DATASET_NAME.csv"
     dataset = load_data(file_path)
     print("Loaded dataset:", dataset.shape)
