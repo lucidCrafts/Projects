@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import RobustScaler
-
+import pandas as pd
 
 columns_to_scale = list(input("Enter the columns to scale (comma-separated): ").split(','))
 
@@ -53,5 +53,18 @@ def t_t_s_skl(preprocessed_df, train_test_size, val_size):
 # Call this function
 #X_train_b, X_test_b, X_val_b, y_train_b, y_test_b, y_val_b = t_t_s_skl(new_df, 0.2, 0.5)
 
+
+
+def load_data(file_path):
+    """Load data from a CSV file."""
+    data = pd.read_csv(file_path)
+    return data
+
+
+if __name__ == "__main__":
+    # Example usage
+    file_path = "data/YOUR_DATASET_NAME.csv"
+    dataset = load_data(file_path)
+    print("Loaded dataset:", dataset.shape)
 
 
