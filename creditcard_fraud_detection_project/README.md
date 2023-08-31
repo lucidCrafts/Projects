@@ -1,4 +1,4 @@
-# Fraud Detection Pipeline
+# Creditcard Fraud Detection Pipeline
 
 This repository contains a Python pipeline for building and training a neural network for fraud detection using the TensorFlow library. The pipeline includes data preprocessing, model creation, and hyperparameter tuning using GridSearchCV.
 
