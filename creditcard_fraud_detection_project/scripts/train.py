@@ -3,10 +3,10 @@ from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import GridSearchCV
 from tensorflow.keras.callbacks import ModelCheckpoint
 import pandas as pd
-from scripts.preprocessing import split_dataset, balanced_dataframe
+from scripts.preprocessing import t_t_s_skl, dataframe_b
 from scripts.model import create_shallow_nn
 
-
+dataframe_b
 # Create a KerasClassifier based on the function
 shallow_nn_model = KerasClassifier(build_fn=create_shallow_nn, epochs=10, batch_size=16, verbose=2)
 
